@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -webkit-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    background: -moz-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -moz-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    background: -ms-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -ms-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    background: -o-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -o-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    background: radial-gradient(circle farthest-corner at 32% 106%, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    min-height: 100vh;
+    display: grid;
+    font-family: 'DM Sans', sans-serif;
+    align-items: baseline;
+    align-content: center;
+    justify-items: stretch;}
+body::-webkit-scrollbar{
+    width: 7px;
+    height: 7px;
+    background-color: black;}
+body::-webkit-scrollbar-thumb{
+    background: -webkit-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, #fa9338 28%, rgb(235, 65, 65) 42%, transparent 82%), -webkit-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    background: -moz-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -moz-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    background: -ms-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -ms-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    background: -o-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -o-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    background: radial-gradient(circle farthest-corner at 32% 106%, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);;}
+body::-webkit-scrollbar-thumb:hover {
+    background: -webkit-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -webkit-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    background: -moz-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -moz-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    background: -ms-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -ms-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    background: -o-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -o-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    background: radial-gradient(circle farthest-corner at 32% 106%, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+body::-webkit-scrollbar-thumb:active {
+    background-color:black;}
+code{
+    color:green;
+    background-color:rgba(0, 0, 0, 0.563);
+    text-size-adjust: 70px;}
+
+#campus{
+    padding:0px 30px 0px 30px;
+    text-align:center;
+    color: aliceblue;
+    background-color: transparent;
+    margin: 0% 25% 1% 25%;}
+#section{
+    padding:17px 30px 30px 30px;
+    text-align:left;
+    color: aliceblue;
+    margin: 1% 25% 0% 25%;
+    backdrop-filter: blur(7px) saturate(180%);
+    -webkit-backdrop-filter: blur(7px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.125);}
+#css{
+  padding:17px 30px 30px 30px;
+  text-align:left;
+  color: aliceblue;
+  margin: 1% 25% 10% 25%;
+  backdrop-filter: blur(7px) saturate(180%);
+  -webkit-backdrop-filter: blur(7px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.125);}
+.titulo{
+    font-size:x-large;}
+
+
+    .Iam {
+        font: normal 40px/50px Montserrat, sans-serif;
+        color: #ffffff;
+        background-color:transparent;
+        margin: 4% 20% 0% 20%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;}
+      .Iam p {
+        height: 0px;
+        float:left;
+      }
+      .Iam b {
+        overflow: hidden;
+        position: relative;
+        height: 50px;
+        top: 1px;
+        text-align: center;
+      }
+      .Iam .innerIam {
+        display:flex;
+        color:#fa9338;
+        position: relative;
+        white-space: nowrap;
+        top: 0;
+        left: 0;
+      
+      /*animation*/
+      -webkit-animation:move 5s;
+         -moz-animation:move 5s;
+          -ms-animation:move 5s;
+           -o-animation:move 5s;
+              animation:move 5s;
+      /*animation-iteration-count*/
+      -webkit-animation-iteration-count:infinite;
+         -moz-animation-iteration-count:infinite;
+          -ms-animation-iteration-count:infinite;
+           -o-animation-iteration-count:infinite;
+              animation-iteration-count:infinite;
+      /*animation-delay*/
+      -webkit-animation-delay:1s;
+         -moz-animation-delay:1s;
+          -ms-animation-delay:1s;
+           -o-animation-delay:1s;
+              animation-delay:1s;
+      }
+      @keyframes move{
+      0%  { top: -200px; }
+      25% { top: -150px; }
+      50% { top: -100px; }
+      75% { top: -50px; }
+      100% { top: 0px; }
+      }
+      @-webkit-keyframes move {
+        0%  { top: 0px; }
+        25% { top: -50px; }
+        50% { top: -100px; }
+        75% { top: -150px; }
+        100% { top: -200px; }
+      }
+      @-moz-keyframes move {
+        0%  { top: -200px; }
+        25% { top: -150px; }
+        50% { top: -100px; }
+        75% { top: -50px; }
+        100% { top: 0px; }
+      }
+      @-o-keyframes move {
+        0%  { top: 0px; }
+        25% { top: -50px; }
+        50% { top: -100px; }
+        75% { top: -150px; }
+        100% { top: -200px; }
+      }
+      @keyframes move {
+        0%  { top: -200px; }
+        25% { top: -150px; }
+        50% { top: -100px; }
+        75% { top: -50px; }
+        100% { top: 0px; }
+      }
+
+      .button_slide {
+        color: #FFF;
+        border: 2px solid #fa9338;
+        border-radius: 0px;
+        padding: 15px;
+        display: inline-block;
+        text-decoration: none;
+        font-family: "Lucida Console", Monaco, monospace;
+        font-size: 14px;
+        letter-spacing: 1px;
+        cursor: pointer;
+        box-shadow: inset 0 0 0 0 #fa9338;
+        -webkit-transition: ease-out 0.4s;
+        -moz-transition: ease-out 0.4s;
+        transition: ease-out 0.4s;
+      }
+      
+      .slide_left:hover {
+        box-shadow: inset 0 0 0 50px #fa9338;
+      }
+      
+      #outer {
+        width: 364px;
+        margin: 50px auto 0 auto;
+        text-align: center;
+      }

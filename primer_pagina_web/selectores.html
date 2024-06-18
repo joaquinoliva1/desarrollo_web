@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Selectores</title>
+	<link rel="stylesheet" type="text/css" href="selectores.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="titulo">
+		<h1 class="titulo1">Selectores en CSS</h1>
+		<p>Para darle estilo a los objetos que conforman la web, primero debemos seleccionarlos.</p>
+	</div>
+	<article class="selectores">
+		<section>
+			<h1 class="titulo">Universal</h1>
+			<p>El selector universal selecciona todos los elementos de una web: <code>* {color: red;}</code></p>
+		</section>
+		<section>
+			<h1 class="titulo">Tipo</h1>
+			<p>Seleccionamos por nombre de elementos: <code>h1 {color: red;}</code></p>
+		</section>
+		<section>
+			<h1 class="titulo">Clase</h1>
+			<p>Asignar clase a la etiqueta: <code>&lt;h1 class="clase"&gt;</code></p>
+		</section>
+		<section>
+			<h1 class="titulo">ID</h1>
+			<p>Es similar a la clase, pero en vez de utilizar un punto, utilizamos un "#".</p>
+			<p>Además, el ID es un identificador único. Por más que sea posible, no se debería repetir: <code>&lt;p id="identificador"&gt;</code></p>
+		</section>
+		<section>
+			<h1 class="titulo">Atributo</h1>
+			<p>Para comprender qué es un atributo es necesario conocer la estructura de las etiquetas.</p>
+			<img src="estructura.png">
+			<p>Podemos crear atributos y hacer referencia a ellos en CSS de la siguiente manera: <code>&lt;p ejemplo="atributo"&gt;</code></p>
+		</section>
+		<section>
+			<h1 class="titulo">Descendiente</h1>
+			<p>De esta manera modificamos únicamente un elemento dentro de la etiqueta.</p>
+			<p>En el caso de <code>&lt;p&gt;</code><code>&lt;b&gt;</code><code>ejemplo</code><code>&lt;/b&gt;</code><code>&lt;/p&gt;</code> colocamos: <code>p b {color:red}</code> en CSS.</p>
+		</section>
+		<section>
+			<h1 class="titulo">Pseudo-Class</h1>
+			<p>Es la modificación de una clase ante determinada acción. Ejemplo: si pasamos el mouse sobre una palabra, la misma cambia de color.</p>
+			<p>En CSS se debería hacer referencia de la siguiente manera: <code>.pseudo-class:hover {color:red;}</code></p>
+		</section><br>
+	</article>
+	<article class="cascada">
+		<h1 class="titulo">Hojas de estilo en cascada: especificaciones semánticas</h1>
+		<p>El término "cascada" hace referencia a que en un código siempre se interpretará la última modificación realizada sobre un objeto.</p>
+		<h2>¿Siempre?</h2>
+		<p>Bueno, no siempre. Depende del selector que utilicemos para realizar los cambios.</p>
+		<p>La interpretación sobre cambios gráficos dependerá de la jerarquía: mientras más arriba esté, más importante será. Esto se verá reflejado en los resultados.</p>
+		<img src="jerarquíaselectores.png" height="500"><img src="ejemplojerarquias.png" height="200"><p>En este caso, el color será rojo.</p>
+		<p>La cascada será valida únicamente en objetos que se definan con la misma jerarquía, en cambio si utilizamos jerarquías distintas, siempre tendrán prioridad las más importantes.</p>
+		<p>O sea, si volvemos a definir el color de .color-red, se respetará la cascada y se definirá como último elemento.</p>
+	</article>
+</body>
+</html>
