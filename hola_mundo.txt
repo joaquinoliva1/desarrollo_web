@@ -1,3 +1,5 @@
 hola mundo!
 
 modificación archivo
+
+Al descargar el .zip de este repositorio, no olvidarse de descomprimir la carpeta. Sino, el archivo index.html no tendrá aplicados los estilos.
